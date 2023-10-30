@@ -26,49 +26,32 @@ The core of this application is the `TitanicSurvivorClassifier` class. This clas
 
 The journey begins with a login interface where users must enter their usernames and passwords. This crucial authentication step ensures that only registered users can access the application.
 
-[Login Form Image]
-
 If the Username is not registered in the database, it will show this error.
 
-[Invalid username Image]
-
 and if the username is correct but the password is wrong, then it will show this error.
-
-[Invalid Password Image]
 
 ### User Registration
 
 For new users, the program offers a registration option to create a new account.
 
-[New user registered Image]
-
 User registration data is securely stored in a MongoDB database and the passwords are encrypted.
-
-[Password Encryption Image]
 
 If the new username is already exist in the database, then it shows this error.
 
-[Username already exists Image]
 
 ### Main Form
 
 After a successful login, users are presented with the main form. This form displays the iconic Titanic image and provides input fields for collecting passenger data for prediction, also it shows the confidence number of the model.
 
-[Decision Tree Algorithm Image]
-
 ### Decision Tree Model
 
 The heart of the program is a decision tree classification model. This model predicts whether a passenger survived or not based on their input data. It is trained on a dataset stored in a MongoDB collection.
-
-[Decision Tree Image]
 
 For higher resolution, you can follow the link.
 
 ### User Interaction
 
 Users can input passenger details, including age, sex, class, and more. By clicking the “Predict” button, users trigger the model, and the prediction result is displayed.
-
-[Prediction with Accuracy Image]
 
 ### Data Visualization
 
@@ -99,21 +82,11 @@ The program works with a MongoDB database named “Assessment,” which contains
 
 To enhance security, MongoDB is configured with user authentication and access control. User authentication ensures that only authorized users can access and modify the database. It adds an additional layer of protection to the stored data.
 
-## UML Diagram: A Visual Representation
-
-To better understand the program’s structure, we’ve created a UML class diagram. This diagram provides a high-level view of how the program is organized and how different components interact.
-
-[UML Diagram Image]
-
 ## Flowchart: Navigating the User Experience
 
 To simplify the understanding of user interactions, we’ve designed a flowchart that depicts the login and registration process. This flowchart helps illustrate the sequence of steps a user follows to access the program, whether as a registered user or a newcomer.
 
-[Flowchart before Login Authentication Image]
-
 The flowchart demonstrates how users choose between logging in with existing credentials or registering as new users.
-
-[Flowchart after Login Authentication Image]
 
 This flowchart shows how user data is processed and authenticated.
 
