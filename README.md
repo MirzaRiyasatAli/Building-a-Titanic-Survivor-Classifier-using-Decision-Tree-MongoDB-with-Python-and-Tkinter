@@ -111,4 +111,13 @@ This program can serve as both a learning resource and a template for similar pr
 
 The sinking of the Titanic will always be a somber part of history, but our ability to analyze and understand the data related to this event empowers us to draw valuable insights and learn from the past. We hope this in-depth exploration of our program has shed light on the intricate workings of this multifaceted application.
 
+  [Building a Titanic Survivor Classifier using Decision Tree, MongoDB, Python and Tkinter demonstration video] (https://drive.google.com/drive/folders/1ZERQ1c56_UifS0NJV6CnehL3y0isLAMb?usp=sharing)
+
+- **Blog Post on Medium:**
+  [Building a Titanic Survivor Classifier using Decision Tree, MongoDB, Python and Tkinter](https://medium.com/@mirzariyasatali1/building-a-titanic-survivor-classifier-using-decision-tree-mongodb-python-and-tkinter-47838ed324e9)
+
+
+- **LinkedIn Post:**
+  [LinkedIn Post](https://www.linkedin.com/posts/mirza-riyasat-ali-688a58150_datascience-machinelearning-python-activity-7124713908258357248-L085?utm_source=share&utm_medium=member_android))
+
 Thank you for taking the time to delve into the world of data science, machine learning, and user interface design with us. We hope this journey has been as enlightening for you as it has been for us.
