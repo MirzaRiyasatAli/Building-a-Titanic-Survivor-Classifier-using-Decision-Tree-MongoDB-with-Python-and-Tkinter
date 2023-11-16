@@ -16,6 +16,19 @@ The Titanic Survivor Classifier is powered by a rich array of Python libraries a
 - **DecisionTreeClassifier**: The DecisionTreeClassifier is part of scikit-learn, a powerful machine learning library in Python. It is used to build and train the decision tree model.
 - **Matplotlib**: Matplotlib, a data visualization library, is employed to generate and display the decision tree as an image.
 
+- ## How to Run
+
+To experience the dashboard, follow these simple steps:
+
+1. Ensure you have Python installed.
+
+2. Install the required dependencies.
+
+3. Run the following command:
+    ```bash
+    python run App.py
+    ```
+
 ## The Heart of the Application
 
 The core of this application is the `TitanicSurvivorClassifier` class. This class is responsible for orchestrating the entire application. It ensures that the user interface is set up, handles user authentication and registration, and conducts the prediction using a decision tree classifier. This application integrates a variety of components to ensure a robust and interactive user experience.
